@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="10" height="10" tilewidth="8" tileheight="8">
+ <tileset firstgid="1" name="Tiles" tilewidth="8" tileheight="8">
+  <image source="data/8BitTextures.png" width="48" height="184"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="10" height="10">
+  <data>
+   <tile gid="103"/>
+   <tile gid="105"/>
+   <tile gid="105"/>
+   <tile gid="105"/>
+   <tile gid="105"/>
+   <tile gid="105"/>
+   <tile gid="118"/>
+   <tile gid="105"/>
+   <tile gid="105"/>
+   <tile gid="108"/>
+   <tile gid="106"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="106"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="107"/>
+   <tile gid="106"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="106"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="107"/>
+   <tile gid="106"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="106"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="107"/>
+   <tile gid="106"/>
+   <tile gid="9"/>
+   <tile gid="105"/>
+   <tile gid="108"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="109"/>
+   <tile gid="105"/>
+   <tile gid="9"/>
+   <tile gid="107"/>
+   <tile gid="106"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="107"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="107"/>
+   <tile gid="106"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="107"/>
+   <tile gid="9"/>
+   <tile gid="103"/>
+   <tile gid="105"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="107"/>
+   <tile gid="106"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="107"/>
+   <tile gid="9"/>
+   <tile gid="106"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="107"/>
+   <tile gid="106"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="107"/>
+   <tile gid="9"/>
+   <tile gid="106"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="9"/>
+   <tile gid="107"/>
+   <tile gid="109"/>
+   <tile gid="105"/>
+   <tile gid="105"/>
+   <tile gid="105"/>
+   <tile gid="105"/>
+   <tile gid="105"/>
+   <tile gid="105"/>
+   <tile gid="113"/>
+   <tile gid="105"/>
+   <tile gid="114"/>
+  </data>
+ </layer>
+ <objectgroup name="ObjectCollision" width="10" height="10">
+  <object name="Wall" type="ObjectCollision" x="76" y="73">
+   <polyline points="0,0 0,-65 -23,-65 -23,-40 -12,-40 -12,-33 -27,-33 -27,-65 -70,-65 -71,-1 -48,-1 -47,-32 -59,-32 -59,-39 -44,-39 -45,-1 -37,-1 -37,-24 -20,-24 -20,-17 -31,-17 -31,0 -33,5 -31,7 -76,7 -75,-72 4,-72 4,7 -36,7 -31,-1 0,-1"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="DemonSpawn" width="10" height="10">
+  <object name="Easy" type="NPC" x="8" y="16">
+   <polyline points="0,0 0,8 8,8 8,0 0,0"/>
+  </object>
+  <object name="Med" type="NPC" x="40" y="16">
+   <polyline points="0,0 -8,0 -8,8 0,8 0,0"/>
+  </object>
+  <object name="Hard" type="NPC" x="64" y="16">
+   <polyline points="0,0 0,8 8,8 8,0 0,0"/>
+  </object>
+  <object name="Easy" type="NPC" x="8" y="56">
+   <polyline points="0,0 0,8 8,8 8,0 0,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="PickupObject" width="10" height="10">
+  <object name="RandomDrop" type="Potion" x="16" y="40">
+   <polyline points="0,0 0,8 8,8 8,0 0,0"/>
+  </object>
+ </objectgroup>
+</map>

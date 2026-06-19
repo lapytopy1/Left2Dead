@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="10" height="10" tilewidth="8" tileheight="8">
+ <tileset firstgid="1" name="Tiles" tilewidth="8" tileheight="8">
+  <image source="data/Tiles.png" trans="ffffff" width="48" height="48"/>
+ </tileset>
+ <layer name="Main" width="10" height="10">
+  <data>
+   <tile gid="13"/>
+   <tile gid="15"/>
+   <tile gid="15"/>
+   <tile gid="15"/>
+   <tile gid="15"/>
+   <tile gid="15"/>
+   <tile gid="15"/>
+   <tile gid="15"/>
+   <tile gid="15"/>
+   <tile gid="18"/>
+   <tile gid="16"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="17"/>
+   <tile gid="28"/>
+   <tile gid="15"/>
+   <tile gid="15"/>
+   <tile gid="15"/>
+   <tile gid="18"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="17"/>
+   <tile gid="16"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="17"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="15"/>
+   <tile gid="15"/>
+   <tile gid="27"/>
+   <tile gid="16"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="17"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="17"/>
+   <tile gid="16"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="17"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="17"/>
+   <tile gid="16"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="15"/>
+   <tile gid="24"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="17"/>
+   <tile gid="16"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="17"/>
+   <tile gid="16"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="6"/>
+   <tile gid="17"/>
+   <tile gid="19"/>
+   <tile gid="15"/>
+   <tile gid="15"/>
+   <tile gid="15"/>
+   <tile gid="15"/>
+   <tile gid="15"/>
+   <tile gid="15"/>
+   <tile gid="23"/>
+   <tile gid="15"/>
+   <tile gid="24"/>
+  </data>
+ </layer>
+ <objectgroup name="Collision" width="10" height="10">
+  <object name="Wall" type="Collision" x="0" y="80">
+   <polyline points="0,0 0,-79 81,-79 81,0 63,0 63,-7 77,-7 77,-48 57,-48 57,-54 77,-54 77,-72 4,-72 4,-63 40,-63 40,-24 24,-24 24,-32 36,-32 36,-56 4,-56 4,-7 63,-7 63,1 0,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="ISpawn" width="10" height="10">
+  <object name="RandomI" type="Item" x="8" y="8">
+   <polyline points="0,0 0,8 8,8 8,0 0,0"/>
+  </object>
+  <object name="RandomI" type="Item" x="8" y="32">
+   <polyline points="0,0 0,8 8,8 8,0 0,0"/>
+  </object>
+  <object name="RandomI" type="Item" x="56" y="8">
+   <polyline points="0,0 0,8 8,8 8,0 0,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="DSpawn" width="10" height="10">
+  <object name="Easy" type="Demon" x="56" y="48">
+   <polyline points="0,0 0,8 8,8 8,0 0,0"/>
+  </object>
+  <object name="Easy" type="Demon" x="8" y="56">
+   <polyline points="0,0 0,8 8,8 8,0 0,0"/>
+  </object>
+  <object name="Med" type="Demon" x="40" y="24">
+   <polyline points="0,0 0,8 8,8 8,0 0,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="PSpawn" width="10" height="10">
+  <object name="Player1" type="Hero" x="56" y="64">
+   <polyline points="0,0 0,8 8,8 8,0 0,0"/>
+  </object>
+  <object name="Player2" type="Hero" x="56" y="64">
+   <polyline points="0,0 0,8 8,8 8,0 0,0"/>
+  </object>
+  <object name="Player3" type="Hero" x="56" y="64">
+   <polyline points="0,0 0,8 8,8 8,0 0,0"/>
+  </object>
+  <object name="Player4" type="Hero" x="56" y="64">
+   <polyline points="0,0 0,8 8,8 8,0 0,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="EEvent" width="10" height="10">
+  <object name="Map" type="Main" x="56" y="64">
+   <polyline points="0,0 0,8 8,8 8,0 0,0"/>
+  </object>
+ </objectgroup>
+</map>
